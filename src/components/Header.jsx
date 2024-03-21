@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const PortfolioNav = () => {
+export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -8,8 +8,8 @@ export const PortfolioNav = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-gray-800">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="fixed border-b border-zinc-700 top-0 left-0 right-0 z-10 bg-zinc-950 bg-opacity-90">
+      <div className="h-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="inline-flex justify-between grow w-full md:w-auto">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/logo.svg" className="h-8" alt="Movies Logo" />
