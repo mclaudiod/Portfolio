@@ -18,11 +18,13 @@ export const HeroSection = () => {
             sequence={[
               "Claudio Morales",
               1000,
-              "Web Developer",
+              "Front End",
+              1000,
+              "Back End",
               1000,
               "Full Stack",
               1000,
-              "Responsive Design",
+              "Web Developer",
               1000,
             ]}
             wrapper="span"
@@ -30,7 +32,27 @@ export const HeroSection = () => {
             repeat={Infinity}
           />
         </h1>
-        <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">Web developer specialized in HTML, CSS, JavasCript, React, PHP and more.</p>
+        <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
+          Web developer specialized in HTML, CSS, JavasCript, React, PHP and
+          more.
+        </p>
+        <div>
+          <a
+            href="#"
+            className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900 hover:bg-slate-200 text-white"
+          >
+            Contact me
+          </a>
+          <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900 hover:bg-slate-800 text-white mt-3">
+            <a
+              href="#"
+              download
+              className="block bg-zinc-950 hover:bg-slate-800 rounded-full px-5 py-2"
+            >
+              Download CV
+            </a>
+          </button>
+        </div>
       </motion.div>
     </div>
   );
