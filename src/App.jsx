@@ -1,5 +1,7 @@
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
+import { AboutSection } from "./components/AboutSection";
+import { ProjectSection } from "./components/ProjectSection";
 import { Footer } from "./components/Footer";
 
 export const App = () => {
@@ -8,6 +10,8 @@ export const App = () => {
       <Header />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <AboutSection />
+        <ProjectSection />
       </div>
       <Footer />
     </div>

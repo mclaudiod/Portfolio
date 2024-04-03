@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-32">
+    <section className="flex flex-col justify-center items-center py-32">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -16,7 +16,7 @@ export const HeroSection = () => {
           </span>
           <TypeAnimation
             sequence={[
-              "Claudio Morales",
+              "Claudio D. Morales",
               1000,
               "Front End",
               1000,
@@ -33,7 +33,7 @@ export const HeroSection = () => {
           />
         </h1>
         <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
-          Web developer specialized in HTML, CSS, JavasCript, React, PHP and
+          Web developer specialized in HTML, CSS, JavaScript, React, PHP and
           more.
         </p>
         <div>
@@ -54,6 +54,6 @@ export const HeroSection = () => {
           </button>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
