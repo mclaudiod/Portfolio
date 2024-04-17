@@ -22,7 +22,7 @@ export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <header className="fixed mx-auto border-b border-zinc-700 top-0 inset-x-0 z-10 bg-zinc-950 bg-opacity-90">
+    <header className="fixed mx-auto border-b border-zinc-700 top-0 inset-x-0 z-50 bg-zinc-950 bg-opacity-90">
       <nav className="flex container flex-wrap items-center justify-between mx-auto px-2">
         <a href="/">
           <img className="w-[80px] md:w-[100px] m-3" src="" alt="Logo" />

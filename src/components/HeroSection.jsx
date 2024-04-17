@@ -26,6 +26,8 @@ export const HeroSection = () => {
               1000,
               "Web Developer",
               1000,
+              "Teacher",
+              1000,
             ]}
             wrapper="span"
             speed={50}
@@ -38,7 +40,7 @@ export const HeroSection = () => {
         </p>
         <div>
           <a
-            href="#"
+            href="#contact"
             className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900 hover:bg-slate-200 text-white"
           >
             Contact me

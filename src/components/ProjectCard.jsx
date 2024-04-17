@@ -7,10 +7,6 @@ export const ProjectCard = ({
   gitUrl,
   previewUrl,
 }) => {
-    if(title) {
-        console.log(title);
-    }
-    
   return (
     <div>
       <div

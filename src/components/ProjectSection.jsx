@@ -67,13 +67,18 @@ export const ProjectSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Basic"
+          isSelected={tag === "Basic"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="PHP"
+          isSelected={tag === "PHP"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="React"
+          isSelected={tag === "React"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Codo a Codo</li>
+        <li>Codo a Codo 4.0</li>
         <li>Udemy</li>
         <li>Self-Taught</li>
       </ul>
@@ -61,8 +61,7 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            {" "}
-            With experience in HTML, CSS, JavaScript, React, Node.js, PHP, Git
+            With experience in HTML, CSS, JavaScript, React, Node.js, PHP, MySQL, Git
             and Github. I focus on creating interactive and responsive web
             applications. I&lsquo;m a quick learner and I&lsquo;m constantly
             looking to expand my skills in web development. I enjoy
@@ -89,7 +88,7 @@ export const AboutSection = () => {
               Certifications
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 h-64">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
