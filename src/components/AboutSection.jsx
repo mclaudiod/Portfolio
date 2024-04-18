@@ -8,7 +8,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>HTML</li>
-        <li>CSS</li>
+        <li>CSS and SCSS</li>
         <li>JavaScript</li>
         <li>React</li>
         <li>Node.js</li>
