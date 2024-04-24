@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Freelance",
     description:
-      "This is the first project I ever made, a simple responsive portfolio for a freelancer using just HTML and CSS. It has three sections, a navbar and a form.",
+      "This is the first project I ever made, a simple responsive portfolio for a freelancer using just HTML and CSS.",
     image: "/freelancer-screenshot.png",
     tag: ["All", "Basic"],
     gitUrl: "https://github.com/mclaudiod/Freelancer",
@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "FrontEnd Store",
     description:
-      "My second project is the static and responsive web development themed merch store done using only HTML and CSS mainly to practice the use of grid.",
+      "My second project is the static and responsive web development themed merch store done using only HTML and CSS.",
     image: "/frontend-store-screenshot.png",
     tag: ["All", "Basic"],
     gitUrl: "https://github.com/mclaudiod/FrontEnd-Store",
@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Coffee Blog",
     description:
-      "This project is a static and responsive coffee themed blog done using only HTML and CSS mainly to practice flex and other more complex techniques.",
+      "This project is a static and responsive coffee themed blog done using only HTML and CSS.",
     image: "/coffee-blog-screenshot.png",
     tag: ["All", "Basic"],
     gitUrl: "https://github.com/mclaudiod/Coffee-Blog",
@@ -38,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "Music Festival",
     description:
-      "A responsive website for a music festival, using HTML, SCSS and JavaScript to practice the application of the last two in a complete project.",
+      "A responsive website for a music festival, using HTML, SCSS and JavaScript.",
     image: "/music-festival-screenshot.png",
     tag: ["All", "Basic"],
     gitUrl: "https://github.com/mclaudiod/Music-Festival",
@@ -48,7 +48,7 @@ const projectsData = [
     id: 5,
     title: "Real State",
     description:
-      "My first PHP project is a dynamic and responsive website for a real stage agency made using HTML, SCSS, JavaScript and PHP a apractive for bringing information from a MySQL database.",
+      "My first PHP project is a dynamic and responsive website for a real stage agency made using also HTML, SCSS, JavaScript and MySQL.",
     image: "/real-state-screenshot.png",
     tag: ["All", "PHP"],
     gitUrl: "https://github.com/mclaudiod/Real-State-MVC",
@@ -58,11 +58,71 @@ const projectsData = [
     id: 6,
     title: "App Salon",
     description:
-      "A PHP project that is a dynamic and responsive website for a barber made using HTML, SCSS, JavaScript and PHP a apractive for bringing information from a MySQL database.",
+      "A PHP project that is a dynamic and responsive website for a barber shop made using also HTML, SCSS, JavaScript and MySQL.",
     image: "/app-salon-screenshot.png",
     tag: ["All", "PHP"],
-    gitUrl: "https://github.com/mclaudiod/Real-State-MVC",
-    previewUrl: "https://realstatemvc.000webhostapp.com/",
+    gitUrl: "https://github.com/mclaudiod/AppSalon",
+    previewUrl: "https://appsalonphp.000webhostapp.com/",
+  },
+  {
+    id: 7,
+    title: "UpTask",
+    description:
+      "This project is a dynamic and responsive task manager website made using HTML, SCSS, JavaScript, PHP and MySQL.",
+    image: "/uptask-screenshot.png",
+    tag: ["All", "PHP"],
+    gitUrl: "https://github.com/mclaudiod/UpTask",
+    previewUrl: "https://uptaskmvc.000webhostapp.com/",
+  },
+  {
+    id: 8,
+    title: "DevWebCamp",
+    description:
+      "My largest project is dynamic and responsive website for a web development convention using HTML, SCSS, JavaScript, PHP and MySQL.",
+    image: "/devwebcamp-screenshot.png",
+    tag: ["All", "PHP"],
+    gitUrl: "https://github.com/mclaudiod/DevWebCamp",
+    previewUrl: "https://devwebcampphp.000webhostapp.com/",
+  },
+  {
+    id: 9,
+    title: "TP Integrador",
+    description:
+      "A project made for the Full Stack PHP course of Codo a Codo 4.0 using HTML, Bootstrap, JavaScript, PHP and MySQL.",
+    image: "/tp-integrador-screenshot.png",
+    tag: ["All", "PHP"],
+    gitUrl: "https://github.com/mclaudiod/TP-Integrador-Back",
+    previewUrl: "https://tp-integrador-morales.000webhostapp.com/",
+  },
+  {
+    id: 10,
+    title: "Adventure Quiz",
+    description:
+      "My first React project was a collaborative one with a friend. It is a quiz about a streamer made also using HTML, Tailwind and JavaScript.",
+    image: "/adventure-quiz-screenshot.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Tamaki-Dayo/AdventureQuiz",
+    previewUrl: "https://adventure-quiz.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Cocktails",
+    description:
+      "A collaborative project made for the React course of Codo a Codo 4.0 using HTML, CSS, Bootstrap and JavaScript.",
+    image: "/cocktails-screenshot.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Rodritz/TPIntegrador-CaC-Com23643-G9-React",
+    previewUrl: "https://cocktails-steel-eight.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Movies Project",
+    description:
+      "This React project is a dynamic and responsive website that brings data from an API, in this case movies, and shows it. It was made using HTML, Tailwind and JavaScript.",
+    image: "/movies-project-screenshot.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/mclaudiod/Movies-Project",
+    previewUrl: "https://movies-project-henna.vercel.app/",
   },
 ];
 

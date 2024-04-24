@@ -24,6 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+        <li>IPET 1308</li>
         <li>Codo a Codo 4.0</li>
         <li>Udemy</li>
         <li>Self-Taught</li>
@@ -35,6 +36,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Computer Science Teacher</li>
         <li>Full Stack PHP</li>
         <li>Full Stack JavaScript</li>
         <li>React</li>
@@ -57,14 +59,16 @@ export const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <img src="" width={500} height={500} alt="Illustration" />
+        <div className="bg-[url('/coding.jpg')] bg-cover bg-center bg-no-repeat">
+        </div>
+
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            With experience in HTML, CSS, JavaScript, React, Node.js, PHP, MySQL, Git
-            and Github. I focus on creating interactive and responsive web
-            applications. I&lsquo;m a quick learner and I&lsquo;m constantly
-            looking to expand my skills in web development. I enjoy
+            A computer science teacher with experience in HTML, CSS, JavaScript, React, Node.js, PHP,
+            MySQL, Git and Github. I focus on creating interactive and
+            responsive web applications. I&lsquo;m a quick learner and I&lsquo;m
+            constantly looking to expand my skills in web development. I enjoy
             collaborating in teams to carry out effective and functional
             projects.
           </p>
