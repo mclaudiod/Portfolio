@@ -22,7 +22,7 @@ export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <header className="fixed mx-auto border-b border-zinc-700 top-0 inset-x-0 z-50 bg-zinc-950 bg-opacity-90">
+    <header className="fixed mx-auto border-b border-zinc-700 top-0 inset-x-0 z-50 h-24 bg-zinc-950 bg-opacity-80">
       <nav className="flex container flex-wrap items-center justify-between mx-auto px-2">
         <a href="#">
           <img className="w-[80px] md:w-[100px] m-3" src="" alt="Logo" />
@@ -31,14 +31,14 @@ export const Header = () => {
           {!isNavOpen ? (
             <button
               onClick={() => setIsNavOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-zinc-400 text-zinc-400 hover:text-zinc-50 hover:border-zinc-50"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setIsNavOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-zinc-400 text-zinc-400 hover:text-zinc-50 hover:border-zinc-50"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
