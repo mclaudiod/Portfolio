@@ -59,8 +59,7 @@ export const AboutSection = () => {
   return (
     <section className="text-zinc-50" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="bg-[url('/coding.jpg')] bg-cover bg-center bg-no-repeat">
-        </div>
+      <img src="/Clau Logo final.png" alt="ilutration"/>
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
