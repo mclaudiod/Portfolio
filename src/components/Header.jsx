@@ -25,7 +25,7 @@ export const Header = () => {
     <header className="fixed mx-auto border-b border-zinc-700 top-0 inset-x-0 z-50 bg-zinc-950 bg-opacity-80">
       <nav className="flex container flex-wrap items-center justify-between mx-auto px-2">
         <a href="#">
-          <img className="w-[300px] m-3" src="/Clau Logo final A1.png" alt="Logo"/>
+          <img className="w-[200px] m-3" src="/Clau Logo final A1.png" alt="Logo"/>
         </a>
         <div className="mobile-menu block md:hidden">
           {!isNavOpen ? (

@@ -41,7 +41,7 @@ export const HeroSection = () => {
         <div>
           <a
             href="#contact"
-            className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-indigo-700 via-violet-800 to-purple-900 text-zinc-50"
+            className="px-6 inline-block py-3 w-full sm:w-fit rounded-full sm:mr-4 bg-gradient-to-r from-indigo-700 via-violet-800 to-purple-900 text-zinc-50"
           >
             Contact me
           </a>
