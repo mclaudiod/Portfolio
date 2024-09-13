@@ -1,6 +1,6 @@
 export const ProjectTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
-    ? "text-zinc-50 border-purple-800"
+    ? "text-zinc-50 border-indigo-700"
     : "text-zinc-200 border-zinc-600 hover:border-zinc-50";
   return (
     <button

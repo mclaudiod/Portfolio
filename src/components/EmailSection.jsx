@@ -44,7 +44,7 @@ export const EmailSection = () => {
         id="contact"
         className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 z-0 relative"
       >
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2 mx-12"></div>
+        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2 mx-12"></div>
         <div className="z-10">
           <h5 className="text-xl font-bold text-zinc-50 my-2">
             Let&apos;s Connect
@@ -128,7 +128,7 @@ export const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-purple-800 hover:bg-purple-900 text-zinc-50 font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-violet-800 hover:bg-violet-900 text-zinc-50 font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>
